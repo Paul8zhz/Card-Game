@@ -3,6 +3,7 @@ opengl_app: \
   /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crti.o \
   /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o \
   CMakeFiles/opengl_app.dir/src/main.cpp.o \
+  CMakeFiles/opengl_app.dir/src/Game_Scene.cpp.o \
   /usr/lib/libglfw.so.3.5 \
   /usr/lib/libGLEW.so \
   /usr/lib/libGLX.so \
@@ -58,6 +59,8 @@ opengl_app: \
 /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o:
 
 CMakeFiles/opengl_app.dir/src/main.cpp.o:
+
+CMakeFiles/opengl_app.dir/src/Game_Scene.cpp.o:
 
 /usr/lib/libglfw.so.3.5:
 

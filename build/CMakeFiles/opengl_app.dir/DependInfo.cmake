@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/home/paul/egc/gfx-framework/src/lab_m1/Card-Game/src/Game_Scene.cpp" "CMakeFiles/opengl_app.dir/src/Game_Scene.cpp.o" "gcc" "CMakeFiles/opengl_app.dir/src/Game_Scene.cpp.o.d"
   "/home/paul/egc/gfx-framework/src/lab_m1/Card-Game/src/main.cpp" "CMakeFiles/opengl_app.dir/src/main.cpp.o" "gcc" "CMakeFiles/opengl_app.dir/src/main.cpp.o.d"
   "" "opengl_app" "gcc" "CMakeFiles/opengl_app.dir/link.d"
   )

@@ -129,6 +129,30 @@ opengl_app/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/opengl_app.dir/build.make CMakeFiles/opengl_app.dir/build
 .PHONY : opengl_app/fast
 
+src/Game_Scene.o: src/Game_Scene.cpp.o
+.PHONY : src/Game_Scene.o
+
+# target to build an object file
+src/Game_Scene.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/opengl_app.dir/build.make CMakeFiles/opengl_app.dir/src/Game_Scene.cpp.o
+.PHONY : src/Game_Scene.cpp.o
+
+src/Game_Scene.i: src/Game_Scene.cpp.i
+.PHONY : src/Game_Scene.i
+
+# target to preprocess a source file
+src/Game_Scene.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/opengl_app.dir/build.make CMakeFiles/opengl_app.dir/src/Game_Scene.cpp.i
+.PHONY : src/Game_Scene.cpp.i
+
+src/Game_Scene.s: src/Game_Scene.cpp.s
+.PHONY : src/Game_Scene.s
+
+# target to generate assembly for a file
+src/Game_Scene.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/opengl_app.dir/build.make CMakeFiles/opengl_app.dir/src/Game_Scene.cpp.s
+.PHONY : src/Game_Scene.cpp.s
+
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -162,6 +186,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... opengl_app"
+	@echo "... src/Game_Scene.o"
+	@echo "... src/Game_Scene.i"
+	@echo "... src/Game_Scene.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
