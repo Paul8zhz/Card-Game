@@ -1,5 +1,3 @@
-
-#include <GL/gl.h>
 #include <GLFW/glfw3.h>
 #include <cstdio>
 #include "Game_Scene.h"

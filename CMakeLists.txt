@@ -12,6 +12,7 @@ find_package(GLEW REQUIRED)
 add_executable(opengl_app
     src/main.cpp
     src/Game_Scene.cpp
+    src/Table.cpp
 )
 
 target_link_libraries(opengl_app PRIVATE
