@@ -1,5 +1,5 @@
 CMakeFiles/opengl_app.dir/src/main.cpp.o: \
- /home/paul/egc/gfx-framework/src/lab_m1/Card-Game/src/main.cpp \
+ /home/paul/uni/egc/gfx-framework/src/lab_m1/Card-Game/src/main.cpp \
  /usr/include/stdc-predef.h /usr/include/GL/gl.h /usr/include/GL/glext.h \
  /usr/include/KHR/khrplatform.h \
  /usr/lib/gcc/x86_64-pc-linux-gnu/16/include/stdint.h \
@@ -25,4 +25,4 @@ CMakeFiles/opengl_app.dir/src/main.cpp.o: \
  /usr/include/bits/types/cookie_io_functions_t.h \
  /usr/include/bits/stdio_lim.h /usr/include/bits/floatn.h \
  /usr/include/bits/floatn-common.h \
- /home/paul/egc/gfx-framework/src/lab_m1/Card-Game/src/Game_Scene.h
+ /home/paul/uni/egc/gfx-framework/src/lab_m1/Card-Game/src/Game_Scene.h

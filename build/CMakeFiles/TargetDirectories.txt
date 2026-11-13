@@ -1,3 +1,3 @@
-/home/paul/egc/gfx-framework/src/lab_m1/Card-Game/build/CMakeFiles/opengl_app.dir
-/home/paul/egc/gfx-framework/src/lab_m1/Card-Game/build/CMakeFiles/edit_cache.dir
-/home/paul/egc/gfx-framework/src/lab_m1/Card-Game/build/CMakeFiles/rebuild_cache.dir
+/home/paul/uni/egc/gfx-framework/src/lab_m1/Card-Game/build/CMakeFiles/opengl_app.dir
+/home/paul/uni/egc/gfx-framework/src/lab_m1/Card-Game/build/CMakeFiles/edit_cache.dir
+/home/paul/uni/egc/gfx-framework/src/lab_m1/Card-Game/build/CMakeFiles/rebuild_cache.dir

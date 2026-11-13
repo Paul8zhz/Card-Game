@@ -1,7 +1,7 @@
 CMakeFiles/opengl_app.dir/src/Game_Scene.cpp.o: \
- /home/paul/egc/gfx-framework/src/lab_m1/Card-Game/src/Game_Scene.cpp \
+ /home/paul/uni/egc/gfx-framework/src/lab_m1/Card-Game/src/Game_Scene.cpp \
  /usr/include/stdc-predef.h \
- /home/paul/egc/gfx-framework/src/lab_m1/Card-Game/src/Game_Scene.h \
+ /home/paul/uni/egc/gfx-framework/src/lab_m1/Card-Game/src/Game_Scene.h \
  /usr/include/GLFW/glfw3.h \
  /usr/lib/gcc/x86_64-pc-linux-gnu/16/include/stddef.h \
  /usr/lib/gcc/x86_64-pc-linux-gnu/16/include/stdint.h \
@@ -14,4 +14,6 @@ CMakeFiles/opengl_app.dir/src/Game_Scene.cpp.o: \
  /usr/include/bits/time64.h /usr/include/bits/wchar.h \
  /usr/include/bits/stdint-intn.h /usr/include/bits/stdint-uintn.h \
  /usr/include/bits/stdint-least.h /usr/include/GL/gl.h \
- /usr/include/GL/glext.h /usr/include/KHR/khrplatform.h
+ /usr/include/GL/glext.h /usr/include/KHR/khrplatform.h \
+ /home/paul/uni/egc/gfx-framework/src/lab_m1/Card-Game/src/Table.h \
+ /home/paul/uni/egc/gfx-framework/src/lab_m1/Card-Game/src/Object.h

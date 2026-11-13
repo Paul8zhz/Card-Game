@@ -7,7 +7,7 @@ set(CMAKE_DEPENDS_GENERATOR "Unix Makefiles")
 # The top level Makefile was generated from the following files:
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
-  "/home/paul/egc/gfx-framework/src/lab_m1/Card-Game/CMakeLists.txt"
+  "/home/paul/uni/egc/gfx-framework/src/lab_m1/Card-Game/CMakeLists.txt"
   "CMakeFiles/4.4.5/CMakeCXXCompiler.cmake"
   "CMakeFiles/4.4.5/CMakeSystem.cmake"
   "/usr/lib/cmake/glfw3/glfw3Config.cmake"

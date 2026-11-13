@@ -2,6 +2,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/opengl_app.dir/link.d"
   "CMakeFiles/opengl_app.dir/src/Game_Scene.cpp.o"
   "CMakeFiles/opengl_app.dir/src/Game_Scene.cpp.o.d"
+  "CMakeFiles/opengl_app.dir/src/Table.cpp.o"
+  "CMakeFiles/opengl_app.dir/src/Table.cpp.o.d"
   "CMakeFiles/opengl_app.dir/src/main.cpp.o"
   "CMakeFiles/opengl_app.dir/src/main.cpp.o.d"
   "opengl_app"

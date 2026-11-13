@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/paul/egc/gfx-framework/src/lab_m1/Card-Game
+CMAKE_SOURCE_DIR = /home/paul/uni/egc/gfx-framework/src/lab_m1/Card-Game
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/paul/egc/gfx-framework/src/lab_m1/Card-Game/build
+CMAKE_BINARY_DIR = /home/paul/uni/egc/gfx-framework/src/lab_m1/Card-Game/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/opengl_app.dir/depend.make
@@ -73,43 +73,59 @@ CMakeFiles/opengl_app.dir/codegen:
 .PHONY : CMakeFiles/opengl_app.dir/codegen
 
 CMakeFiles/opengl_app.dir/src/main.cpp.o: CMakeFiles/opengl_app.dir/flags.make
-CMakeFiles/opengl_app.dir/src/main.cpp.o: /home/paul/egc/gfx-framework/src/lab_m1/Card-Game/src/main.cpp
+CMakeFiles/opengl_app.dir/src/main.cpp.o: /home/paul/uni/egc/gfx-framework/src/lab_m1/Card-Game/src/main.cpp
 CMakeFiles/opengl_app.dir/src/main.cpp.o: CMakeFiles/opengl_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/paul/egc/gfx-framework/src/lab_m1/Card-Game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/opengl_app.dir/src/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/opengl_app.dir/src/main.cpp.o -MF CMakeFiles/opengl_app.dir/src/main.cpp.o.d -o CMakeFiles/opengl_app.dir/src/main.cpp.o -c /home/paul/egc/gfx-framework/src/lab_m1/Card-Game/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/paul/uni/egc/gfx-framework/src/lab_m1/Card-Game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/opengl_app.dir/src/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/opengl_app.dir/src/main.cpp.o -MF CMakeFiles/opengl_app.dir/src/main.cpp.o.d -o CMakeFiles/opengl_app.dir/src/main.cpp.o -c /home/paul/uni/egc/gfx-framework/src/lab_m1/Card-Game/src/main.cpp
 
 CMakeFiles/opengl_app.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/opengl_app.dir/src/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/paul/egc/gfx-framework/src/lab_m1/Card-Game/src/main.cpp > CMakeFiles/opengl_app.dir/src/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/paul/uni/egc/gfx-framework/src/lab_m1/Card-Game/src/main.cpp > CMakeFiles/opengl_app.dir/src/main.cpp.i
 
 CMakeFiles/opengl_app.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/opengl_app.dir/src/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/paul/egc/gfx-framework/src/lab_m1/Card-Game/src/main.cpp -o CMakeFiles/opengl_app.dir/src/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/paul/uni/egc/gfx-framework/src/lab_m1/Card-Game/src/main.cpp -o CMakeFiles/opengl_app.dir/src/main.cpp.s
 
 CMakeFiles/opengl_app.dir/src/Game_Scene.cpp.o: CMakeFiles/opengl_app.dir/flags.make
-CMakeFiles/opengl_app.dir/src/Game_Scene.cpp.o: /home/paul/egc/gfx-framework/src/lab_m1/Card-Game/src/Game_Scene.cpp
+CMakeFiles/opengl_app.dir/src/Game_Scene.cpp.o: /home/paul/uni/egc/gfx-framework/src/lab_m1/Card-Game/src/Game_Scene.cpp
 CMakeFiles/opengl_app.dir/src/Game_Scene.cpp.o: CMakeFiles/opengl_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/paul/egc/gfx-framework/src/lab_m1/Card-Game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/opengl_app.dir/src/Game_Scene.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/opengl_app.dir/src/Game_Scene.cpp.o -MF CMakeFiles/opengl_app.dir/src/Game_Scene.cpp.o.d -o CMakeFiles/opengl_app.dir/src/Game_Scene.cpp.o -c /home/paul/egc/gfx-framework/src/lab_m1/Card-Game/src/Game_Scene.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/paul/uni/egc/gfx-framework/src/lab_m1/Card-Game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/opengl_app.dir/src/Game_Scene.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/opengl_app.dir/src/Game_Scene.cpp.o -MF CMakeFiles/opengl_app.dir/src/Game_Scene.cpp.o.d -o CMakeFiles/opengl_app.dir/src/Game_Scene.cpp.o -c /home/paul/uni/egc/gfx-framework/src/lab_m1/Card-Game/src/Game_Scene.cpp
 
 CMakeFiles/opengl_app.dir/src/Game_Scene.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/opengl_app.dir/src/Game_Scene.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/paul/egc/gfx-framework/src/lab_m1/Card-Game/src/Game_Scene.cpp > CMakeFiles/opengl_app.dir/src/Game_Scene.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/paul/uni/egc/gfx-framework/src/lab_m1/Card-Game/src/Game_Scene.cpp > CMakeFiles/opengl_app.dir/src/Game_Scene.cpp.i
 
 CMakeFiles/opengl_app.dir/src/Game_Scene.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/opengl_app.dir/src/Game_Scene.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/paul/egc/gfx-framework/src/lab_m1/Card-Game/src/Game_Scene.cpp -o CMakeFiles/opengl_app.dir/src/Game_Scene.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/paul/uni/egc/gfx-framework/src/lab_m1/Card-Game/src/Game_Scene.cpp -o CMakeFiles/opengl_app.dir/src/Game_Scene.cpp.s
+
+CMakeFiles/opengl_app.dir/src/Table.cpp.o: CMakeFiles/opengl_app.dir/flags.make
+CMakeFiles/opengl_app.dir/src/Table.cpp.o: /home/paul/uni/egc/gfx-framework/src/lab_m1/Card-Game/src/Table.cpp
+CMakeFiles/opengl_app.dir/src/Table.cpp.o: CMakeFiles/opengl_app.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/paul/uni/egc/gfx-framework/src/lab_m1/Card-Game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/opengl_app.dir/src/Table.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/opengl_app.dir/src/Table.cpp.o -MF CMakeFiles/opengl_app.dir/src/Table.cpp.o.d -o CMakeFiles/opengl_app.dir/src/Table.cpp.o -c /home/paul/uni/egc/gfx-framework/src/lab_m1/Card-Game/src/Table.cpp
+
+CMakeFiles/opengl_app.dir/src/Table.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/opengl_app.dir/src/Table.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/paul/uni/egc/gfx-framework/src/lab_m1/Card-Game/src/Table.cpp > CMakeFiles/opengl_app.dir/src/Table.cpp.i
+
+CMakeFiles/opengl_app.dir/src/Table.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/opengl_app.dir/src/Table.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/paul/uni/egc/gfx-framework/src/lab_m1/Card-Game/src/Table.cpp -o CMakeFiles/opengl_app.dir/src/Table.cpp.s
 
 # Object files for target opengl_app
 opengl_app_OBJECTS = \
 "CMakeFiles/opengl_app.dir/src/main.cpp.o" \
-"CMakeFiles/opengl_app.dir/src/Game_Scene.cpp.o"
+"CMakeFiles/opengl_app.dir/src/Game_Scene.cpp.o" \
+"CMakeFiles/opengl_app.dir/src/Table.cpp.o"
 
 # External object files for target opengl_app
 opengl_app_EXTERNAL_OBJECTS =
 
 opengl_app: CMakeFiles/opengl_app.dir/src/main.cpp.o
 opengl_app: CMakeFiles/opengl_app.dir/src/Game_Scene.cpp.o
+opengl_app: CMakeFiles/opengl_app.dir/src/Table.cpp.o
 opengl_app: CMakeFiles/opengl_app.dir/build.make
 opengl_app: CMakeFiles/opengl_app.dir/compiler_depend.ts
 opengl_app: /usr/lib/libglfw.so.3.5
@@ -117,7 +133,7 @@ opengl_app: /usr/lib/libGLEW.so
 opengl_app: /usr/lib/libGLX.so
 opengl_app: /usr/lib/libOpenGL.so
 opengl_app: CMakeFiles/opengl_app.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/paul/egc/gfx-framework/src/lab_m1/Card-Game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable opengl_app"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/paul/uni/egc/gfx-framework/src/lab_m1/Card-Game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable opengl_app"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/opengl_app.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -129,6 +145,6 @@ CMakeFiles/opengl_app.dir/clean:
 .PHONY : CMakeFiles/opengl_app.dir/clean
 
 CMakeFiles/opengl_app.dir/depend:
-	cd /home/paul/egc/gfx-framework/src/lab_m1/Card-Game/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/paul/egc/gfx-framework/src/lab_m1/Card-Game /home/paul/egc/gfx-framework/src/lab_m1/Card-Game /home/paul/egc/gfx-framework/src/lab_m1/Card-Game/build /home/paul/egc/gfx-framework/src/lab_m1/Card-Game/build /home/paul/egc/gfx-framework/src/lab_m1/Card-Game/build/CMakeFiles/opengl_app.dir/DependInfo.cmake "--color=$(COLOR)" opengl_app
+	cd /home/paul/uni/egc/gfx-framework/src/lab_m1/Card-Game/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/paul/uni/egc/gfx-framework/src/lab_m1/Card-Game /home/paul/uni/egc/gfx-framework/src/lab_m1/Card-Game /home/paul/uni/egc/gfx-framework/src/lab_m1/Card-Game/build /home/paul/uni/egc/gfx-framework/src/lab_m1/Card-Game/build /home/paul/uni/egc/gfx-framework/src/lab_m1/Card-Game/build/CMakeFiles/opengl_app.dir/DependInfo.cmake "--color=$(COLOR)" opengl_app
 .PHONY : CMakeFiles/opengl_app.dir/depend
 

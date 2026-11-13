@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/paul/egc/gfx-framework/src/lab_m1/Card-Game
+CMAKE_SOURCE_DIR = /home/paul/uni/egc/gfx-framework/src/lab_m1/Card-Game
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/paul/egc/gfx-framework/src/lab_m1/Card-Game/build
+CMAKE_BINARY_DIR = /home/paul/uni/egc/gfx-framework/src/lab_m1/Card-Game/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/paul/egc/gfx-framework/src/lab_m1/Card-Game/build/CMakeFiles /home/paul/egc/gfx-framework/src/lab_m1/Card-Game/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/paul/uni/egc/gfx-framework/src/lab_m1/Card-Game/build/CMakeFiles /home/paul/uni/egc/gfx-framework/src/lab_m1/Card-Game/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/paul/egc/gfx-framework/src/lab_m1/Card-Game/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/paul/uni/egc/gfx-framework/src/lab_m1/Card-Game/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -153,6 +153,30 @@ src/Game_Scene.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/opengl_app.dir/build.make CMakeFiles/opengl_app.dir/src/Game_Scene.cpp.s
 .PHONY : src/Game_Scene.cpp.s
 
+src/Table.o: src/Table.cpp.o
+.PHONY : src/Table.o
+
+# target to build an object file
+src/Table.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/opengl_app.dir/build.make CMakeFiles/opengl_app.dir/src/Table.cpp.o
+.PHONY : src/Table.cpp.o
+
+src/Table.i: src/Table.cpp.i
+.PHONY : src/Table.i
+
+# target to preprocess a source file
+src/Table.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/opengl_app.dir/build.make CMakeFiles/opengl_app.dir/src/Table.cpp.i
+.PHONY : src/Table.cpp.i
+
+src/Table.s: src/Table.cpp.s
+.PHONY : src/Table.s
+
+# target to generate assembly for a file
+src/Table.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/opengl_app.dir/build.make CMakeFiles/opengl_app.dir/src/Table.cpp.s
+.PHONY : src/Table.cpp.s
+
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -189,6 +213,9 @@ help:
 	@echo "... src/Game_Scene.o"
 	@echo "... src/Game_Scene.i"
 	@echo "... src/Game_Scene.s"
+	@echo "... src/Table.o"
+	@echo "... src/Table.i"
+	@echo "... src/Table.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
